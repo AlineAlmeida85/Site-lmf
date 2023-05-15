@@ -1,0 +1,69 @@
+.depoimentos {
+    width: 85%;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.title {
+    width: 80%;
+}
+
+
+h2 {
+    font-weight: 500;
+    color: #424242;
+}
+
+.description {
+    font-weight: 600;
+    color: #424242;
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.element::before {
+    content: '';
+    width: 52px;
+    height: 5px;
+    display: inline-block;
+    background-color: #F2B705;
+    position: relative;
+    margin-right: 10px;
+}
+
+.depoimentos {
+    border-radius: 0%;
+}
+
+.photo-user {
+    width: 30px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card-depoimentos {
+    border: 1px solid #424242;
+}
+
+.footer {
+    font-size: 16px;
+}
+
+
+@media (max-width:1024px) {
+    
+  
+}
+
+@media (max-width:554px) { 
+    
+    
+}
+
+@media (max-width:354px) { 
+    
+       
+}

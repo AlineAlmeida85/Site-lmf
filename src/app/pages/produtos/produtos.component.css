@@ -1,0 +1,68 @@
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #262622;
+}
+
+i {
+    color: green;
+    font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+p:hover i {
+    color: #25D366;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 0%;
+}
+
+.shadow-1-strong {
+    background-color: rgba(0, 0, 0, .4);
+    transition:all 0.3s ease;
+    opacity:0.9;
+}
+
+.shadow-1-strong:hover {
+    -webkit-filter: drop-shadow(3px 3px 10px black);
+    opacity:1;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.content {
+    height: 600px;
+}
+.example-small-box, .example-large-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .example-small-box {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .example-large-box {
+    height: 300px;
+    width: 300px;
+  }

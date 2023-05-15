@@ -1,0 +1,120 @@
+p {
+    color: #F2B705;
+    font-size: 22px;
+}
+h2 {
+    color: #424242;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+div.text-center {
+    align-items: center;
+}
+
+
+ul {
+    margin: 0 auto;
+    overflow: hidden;  
+    list-style: none;
+}
+
+li {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border: 5px solid #FFF;
+    background-color: #FFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    transition: all .4s ease-in;    
+}
+
+li:hover {
+    transform: scale(1.5);
+
+}
+
+.foto01 {
+    background: url('../../../assets/images/img01.jpeg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+
+.foto01:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+.foto02 {
+    background: url('../../../assets/images/img03.jpeg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+.foto02:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+.foto03 {
+    background: url('../../../assets/images/img05.jpeg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+.foto03:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+.foto04 {
+    background: url('../../../assets/images/img06.jpeg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+
+.foto04:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+.foto05 {
+    background: url('../../../assets/images/img07.jpeg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+.foto05:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+.foto06 {
+    background: url('../../../assets/images/img08.jpeg')no-repeat;
+    background-position: 50% 50%;
+    background-size: 350px 350px;
+    background-color: #FFF;
+}
+.foto06:hover {
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+span {
+    opacity: 0;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 5px;
+    line-height: 370px;
+}
+
+li:hover span {
+    opacity: 1;
+}

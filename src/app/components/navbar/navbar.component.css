@@ -1,0 +1,41 @@
+img {
+    width: 100px;
+    height: 55px;
+    margin-left: 70px;
+}
+a {
+    color: #262622;
+}
+.navbar-expand-lg 
+.navbar-nav 
+.nav-link.active-link {
+    color: #F2B705;  
+    font-weight: 600;
+    transition: .1s;  
+}
+.dropdown-menu {
+    border: none;
+}
+.servicos:hover {
+    color: #F2B705;
+    font-weight: 600;
+    transition: .1s;
+}
+.dropdown-item:hover {
+    color: #F2B705;
+    font-weight: 600;
+    transition: .1s;    
+    background-color: #FFF;
+}
+.nav-container {
+    width: 90%;    
+}
+
+.navbar-toggler-icon {
+    color: #262622;
+}
+
+.navbar-toggler:hover {
+    color: #F2B705;
+}
+

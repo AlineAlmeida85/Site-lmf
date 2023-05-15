@@ -1,0 +1,37 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    max-width: 1100px;    
+}
+
+.card {
+    border: none;
+    border-radius: 0%;
+}
+
+img {    
+    max-height: 600px;
+}
+
+.element::before {
+    content: '';
+    width: 35px;
+    height: 5px;
+    display: inline-block;
+    background-color: #F2B705;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    a {
+        font-size: 12px;
+        padding: 10px 10px;
+        font-weight: 600;
+    }
+}

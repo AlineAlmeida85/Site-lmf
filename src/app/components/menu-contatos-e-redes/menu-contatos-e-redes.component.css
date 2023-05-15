@@ -1,0 +1,38 @@
+.menu-contatos-e-redes {
+    width: 85%;    
+}
+
+a {
+    font-size: 14px;
+    padding: 2px 15px;
+    color: #262622;
+}
+
+
+.contato {
+    color: #F2B705;
+}
+
+i {
+    font-weight: bold;
+    font-size: 20px;
+    color: #262622;
+}
+
+i:hover {
+    color: #F2B705;
+    text-shadow: 1px 1px 1px #262622ac;    
+}
+
+@media (max-width: 1024px) {
+    .menu-contatos-e-redes {
+        width: 100%;
+    }
+    a {
+        font-size: 12px;
+    }
+
+    i {
+        font-size: 18px;
+    }
+}

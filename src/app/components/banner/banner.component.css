@@ -1,0 +1,146 @@
+.banner {
+    background-image: url("../../../assets/images/img16.jpg");
+    height: 650px;
+    background-position: center top;
+    background-size: cover;
+    border-top: 5px solid #F2B705;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #262622;
+}
+
+.banner h3 {
+    color: #FFF;
+    font-size: 16px;
+    text-shadow: 1px 1px 4px #262622;
+}
+
+.banner p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #262622;
+}
+
+.banner p::before {
+    content: '';
+    width: 50px;
+    height: 5px;
+    display: inline-block;
+    background-color: #FFF;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+span:hover {
+    color: #F2B705;
+}
+
+.banner-content {
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    right: 50%;
+}
+
+/* botao */
+
+.banner-content a {
+    text-decoration: none;
+    background-color: #262622;
+    color: #FFF;
+    padding: 16px 20px;
+    border: 1px solid #FFF;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #262622;
+}
+
+.banner-content a:hover {
+    background-color: #F2B705;
+    color: #262622;
+    text-shadow: 1px 1px 1px #ffffffa9;
+}
+
+
+
+@media (max-width:1024px) {
+
+    .banner {
+        margin: auto;
+        width: 100%;
+    }
+    .banner-content {
+        top: 10%;
+    }
+    .container-title {
+        margin-left: -10px;
+    }
+    .sobre {
+        margin-bottom: 10%;
+    }
+
+    .photo-services {
+        width: 40%;
+    }
+
+    .banner-content > h1 {
+        font-size: 35px;
+    }   
+    .banner p {
+        font-size: 14px;
+    }
+    .banner h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:554px) { 
+    .banner {
+        margin: auto;
+        width: 100%;
+    }
+    .banner-content {
+        top: 10%;
+    }
+  
+    .banner-content > h1 {
+        font-size: 28px;
+    }   
+    .banner p {
+        font-size: 14px;
+    }
+    .banner h3 {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width:354px) { 
+    
+    .banner-content {
+        top: 5%;
+    }
+  
+    .banner-content > h1 {
+        font-size: 25px;
+    }   
+    .banner p {
+        font-size: 12px;
+    }
+    .banner h3 {
+        font-size: 12px;
+    }
+    .banner-content a {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    
+}

@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF;
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+li {
+    list-style: none;
+}
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #262622;
+    background-color: #FFF;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #F2B705;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-yellow {
+    color: #262622;
+    background-color: #F2B705;
+    padding: 15px 15px;
+    font-weight: 600;
+}
+
+.button-yellow:hover {
+    background-color: #262622;
+    color: #FFF;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 15px 15px;
+}
+
+.tag {
+    padding-bottom: 80px;
+}
+
+p.truncar-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
