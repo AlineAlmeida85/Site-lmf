@@ -19,7 +19,8 @@ i:hover {
     left: 90%;
     display: flex;
     width: 60px;
-    height: 60px;    
+    height: 60px;
+    cursor: pointer;
 }
 
 
