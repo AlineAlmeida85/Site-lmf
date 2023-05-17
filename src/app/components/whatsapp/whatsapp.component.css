@@ -6,6 +6,7 @@ i {
     border-radius: 50%;
     border: 1px solid #0000006b;
 }
+
 i:hover {
     color: #25D366;
     background-color: #FFF;
@@ -18,9 +19,6 @@ i:hover {
     bottom: 3%;
     left: 90%;
     display: flex;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
 }
 
 
@@ -28,10 +26,10 @@ i:hover {
     content: '';
     display: block;
     position: absolute;
-    left: 5px;
-    right: -18px;
-    top: -1px;
-    bottom: -7px;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
     border-radius: 50%;
     border: 3px solid #25D366;
     animation: animar 1.5s linear infinite;
