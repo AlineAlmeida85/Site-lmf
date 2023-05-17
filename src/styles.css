@@ -35,15 +35,42 @@ a {
 }
 
 .button-yellow {
+    display: inline-block;
     color: #262622;
     background-color: #F2B705;
     padding: 15px 15px;
     font-weight: 600;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #00000061;
+    transition: transform 100ms linear;
 }
 
+
 .button-yellow:hover {
+    transform: scale(1.08);    
     background-color: #262622;
     color: #FFF;
+}
+
+
+.button-tag {
+    display: inline-block;
+    color: #262622;
+    background-color: #F2B705;    
+    margin: 20px 20px;    
+    padding: 16px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #ffffff77;
+    font-weight: bold;
+    transition: transform 100ms linear;
+}
+
+
+.button-tag:hover {
+    transform: scale(1.08);  
+    background-color: #FFF;
+    color: #262622;
 }
 
 h2 {
@@ -67,5 +94,12 @@ p.truncar-3l {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
