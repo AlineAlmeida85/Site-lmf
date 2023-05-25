@@ -9,13 +9,14 @@ import { ContatoComponent } from './pages/contato/contato.component';
 import { PoliticaComponent } from './pages/politica/politica.component';
 
 const routes: Routes = [
-  {path: '', component:HomeComponent},
+  {path: '', component:HomeComponent, pathMatch: 'full'},
   {path: 'pavimentacao', component:PavimentacaoComponent},
   {path: 'sinalizacao', component:SinalizacaoComponent},
   {path: 'produtos', component:ProdutosComponent},
   {path: 'quem-somos', component:QuemSomosComponent},
   {path: 'contato', component:ContatoComponent},
-  {path: 'politica', component:PoliticaComponent}
+  {path: 'politica', component:PoliticaComponent},
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({

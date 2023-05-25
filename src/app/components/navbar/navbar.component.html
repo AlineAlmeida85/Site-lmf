@@ -1,35 +1,81 @@
 <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid nav-container">
-        <a class="navbar-brand"  routerLink="">
-            <img src="../../../assets/images/lmflogo_preto.png" alt="Logo" class="d-inline-block align-text-top">
+        <a class="navbar-brand" [routerLink]="['/']">
+            <img 
+                src="../../../assets/images/lmflogo_preto.png" 
+                alt="Logo" 
+                class="d-inline-block align-text-top">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarTogglerDemo02" 
+            aria-controls="navbarTogglerDemo02" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">HOME</a>
+                    <a 
+                        class="nav-link" 
+                        [routerLink]="['/']" 
+                        [routerLinkActive]="['active-link']" 
+                        [routerLinkActiveOptions]="{exact:true}">HOME</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown servicos"  role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLinkActive="active-link">SERVIÇOS +</a>
+                    <a 
+                        class="nav-link dropdown servicos"  
+                        role="button" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false" 
+                        [routerLinkActive]="['active-link']"
+                        [routerLinkActiveOptions]="{exact:true}">SERVIÇOS +
+                    </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" routerLink="pavimentacao" routerLinkActive="active-link">PAVIMENTAÇÃO E TAPA BURACO</a>
+                            <a 
+                                class="dropdown-item" 
+                                [routerLink]="['/pavimentacao']" 
+                                [routerLinkActive]="['dropdown-item']"
+                                [routerLinkActiveOptions]="{exact:true}">PAVIMENTAÇÃO E TAPA BURACO
+                            </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" routerLink="sinalizacao" routerLinkActive="active-link" >SINALIZAÇÃO VIÁRIA</a>
+                            <a 
+                                class="dropdown-item" 
+                                [routerLink]="['/sinalizacao']" 
+                                [routerLinkActive]="['dropdown-item']"
+                                [routerLinkActiveOptions]="{exact:true}">SINALIZAÇÃO VIÁRIA
+                            </a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  routerLink="produtos" routerLinkActive="active-link">PRODUTOS</a>
+                    <a 
+                        class="nav-link"  
+                        [routerLink]="['/produtos']" 
+                        [routerLinkActive]="['active-link']"
+                        [routerLinkActiveOptions]="{exact:true}">PRODUTOS
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  routerLink="quem-somos" routerLinkActive="active-link">QUEM SOMOS</a>
+                    <a 
+                        class="nav-link"  
+                        [routerLink]="['/quem-somos']" 
+                        [routerLinkActive]="['active-link']"
+                        [routerLinkActiveOptions]="{exact:true}">QUEM SOMOS
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"  routerLink="contato" routerLinkActive="active-link">CONTATO</a>
+                    <a 
+                        class="nav-link"  
+                        [routerLink]="['/contato']" 
+                        [routerLinkActive]="['active-link']"
+                        [routerLinkActiveOptions]="{exact:true}">CONTATO
+                    </a>
                 </li>
             </ul>
         </div>
